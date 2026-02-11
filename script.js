@@ -4,3 +4,10 @@ buttons.forEach(button => {
         alert("Я люблю свою Жену Ксюшу!");
     });
 });
+
+let buttons_ilya = document.querySelectorAll('.show_alert_button_ilya');
+buttons_ilya.forEach(button => {
+    button.addEventListener("click", (e) => {
+        alert("Я люблю своего Мужа Илюшу!");
+    });
+});
